@@ -5,7 +5,7 @@
 **Aufgabe:**
 Ein Körper wird aus dem Backofen bei 205°C in einen Raum mit Raumtemperatur 23°C gebracht.
 Die Temperatur in Abhängigkeit von der Zeit fällt proportional zum Unterschied der Raumtemperatur zur Temperatur des Körpers.
-Bestimme, welche der folgenden Differentialgleichungen den Temperaturänderungsprozess korrekt beschreibt.
+Bestimme eine Differentialgleichungen, welche den Temperaturänderungsprozess korrekt beschreibt.
 
 ### Schritt 1: Variablen definieren
 - $T(t)$ = Temperatur des Körpers zur Zeit $t$ (in °C)
