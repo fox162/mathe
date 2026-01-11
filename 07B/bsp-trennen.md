@@ -22,7 +22,7 @@ $$y = A \cdot e^{x^2} \quad \text{(wobei $A = \pm e^C$)}$$
 
 (%i2)	gl1: 'diff(y,x, 1) =  2*x*y;
 (gl1)	'diff(y,x,1)=2*x*y
-/* (d/dx)*y=2*x*y */
+/* (dy/dx)*y=2*x*y */
 
 (%i3)	ode2(gl1, y, x);
 (%o3)	y=%e^x^2*%c
