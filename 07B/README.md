@@ -124,7 +124,7 @@ Diese Methode funktioniert nur bei **separierbaren ODEs**:
 4. **Integrieren beider Seiten:** $\int \frac{dy}{g(y)} = \int f(x) \, dx$
 5. **Lösen nach $y$** (wenn möglich)
 
-### [Beispiele](07B-bsp-trennen.md)
+### [Beispiele](./07B-bsp-trennen.md)
 
 ---
 
