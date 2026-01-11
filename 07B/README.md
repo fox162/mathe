@@ -27,7 +27,7 @@ $\frac{dy}{dx} = x + y$
 - Abkühlungs-/Erwärmungsprozesse (Newtonsches Abkühlungsgesetz)
 - Mechanik (Bewegung mit Reibung, freier Fall)
 
-### [Beispiele zum Aufstellen von ODEs](07B-bsp-aufstellen.md)
+### [Beispiele zum Aufstellen von ODEs](./bsp-aufstellen.md)
 
 ---
 
@@ -124,7 +124,7 @@ Diese Methode funktioniert nur bei **separierbaren ODEs**:
 4. **Integrieren beider Seiten:** $\int \frac{dy}{g(y)} = \int f(x) \, dx$
 5. **Lösen nach $y$** (wenn möglich)
 
-### [Beispiele](./07B-bsp-trennen.md)
+### [Beispiele](./bsp-trennen.md)
 
 ---
 
