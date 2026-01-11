@@ -4,14 +4,19 @@
 **Schritt 1-2:** Schreibe um: $\frac{dy}{dx} = 2xy$
 
 **Schritt 3:** Trenne Variablen:
+
 $$\frac{dy}{y} = 2x \, dx$$
 
 **Schritt 4:** Integriere beide Seiten:
+
 $$\int \frac{dy}{y} = \int 2x \, dx$$
+
 $$\ln|y| = x^2 + C$$
 
 **Schritt 5:** Löse nach $y$ auf:
+
 $$|y| = e^{x^2 + C} = e^C \cdot e^{x^2}$$
+
 $$y = A \cdot e^{x^2} \quad \text{(wobei $A = \pm e^C$)}$$
 
 **Allgemeine Lösung:** $\boxed{y = A e^{x^2}}$
@@ -42,12 +47,17 @@ $$y = A \cdot e^{x^2} \quad \text{(wobei $A = \pm e^C$)}$$
 **ODE mit AB:** $y' = -2xy$ mit $y(0) = 3$
 
 **Schritt 1-4:** (wie oben, aber mit Minus)
+
 $$\int \frac{dy}{y} = \int -2x \, dx$$
+
 $$\ln|y| = -x^2 + C$$
+
 $$y = A e^{-x^2}$$
 
 **Schritt 5b - Anfangsbedingung einsetzen:**
+
 $$y(0) = 3: \quad 3 = A e^0 = A$$
+
 $$A = 3$$
 
 **Partikuläre Lösung:** $\boxed{y = 3e^{-x^2}}$
@@ -83,10 +93,15 @@ $$A = 3$$
 **ODE:** $y' = \frac{x}{y}$
 
 **Schritt 1-3:** Trenne Variablen:
+
 $$y \, dy = x \, dx$$
+
 **Schritt 4:** Integriere:
+
 $$\int y \, dy = \int x \, dx$$
+
 $$\frac{y^2}{2} = \frac{x^2}{2} + C$$
+
 $$y^2 = x^2 + K \quad \text{(wobei $K = 2C$)}$$
 
 **Schritt 5:** Löse nach $y$ auf:
