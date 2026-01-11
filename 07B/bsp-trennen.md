@@ -84,7 +84,7 @@ $$A = 3$$
 (%i5)	subst(%c=3, loes);
 (%o5)	y=3*%e^(-x^2)
 
-/* partikuläre lösung (ic2 macht schritte automatisch)*/
+/* partikuläre lösung (ic1 macht schritte automatisch), mach ic2 für funktion 2. Grades (f(x,y))*/
 (%i6)	ic1(loes, x=0, y=3);
 (%o6)	y=3*%e^(-x^2)
 ```
