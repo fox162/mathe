@@ -1,9 +1,11 @@
 # Mathe yeah ig
 ## 1. patielle ableitung
 **beispiel:**
+
 $$
 f(x, y)=y\,e^{y\sqrt[5]{x^{3}}}
 $$
+
 maxima befehl:
 ```maxima
 f: y*exp(y * x^(3/5));
@@ -27,10 +29,12 @@ ergebnis:
 (%o2)	%e^(x^(3/5)*y)*x^(3/5)*y+%e^(x^(3/5)*y)
 ```
 also
+
 $$
 % nach x:
 \frac{\partial f}{\partial x}=\displaystyle \frac{3 e^{\left(\sqrt[5]{x^3} y\right)} y^2}{5 \sqrt[5]{x^2}}
 $$
+
 $$
 % nach y:
 \frac{\partial f}{\partial y}=\displaystyle e^{\left(\sqrt[5]{x^3} y\right)} + y e^{\left(\sqrt[5]{x^3} y\right)} {\sqrt[5]{x^3}}
