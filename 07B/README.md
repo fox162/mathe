@@ -251,4 +251,4 @@ Wenn dein Ansatz **bereits in der homogenen Lösung $y_h$ vorkommt**, dann multi
 5. Koeffizientenvergleich → bestimme $A, B, C, ...$
 6. Gesamtlösung: $y = y_h + y_p$
 
-### [Beispiele mit vollständigen Lösungen](07B-partikulaere-loesungen.md)
+### [Beispiele mit vollständigen Lösungen](./partikulaere-loesungen.md)
