@@ -112,8 +112,8 @@ Diese Methode funktioniert nur bei **separierbaren ODEs**:
 
 | Separierbar? | Beispiel |
 |---|---|
-| ✅ JA | $y' = x \cdot y$ (weil $= x \cdot y = f(x) \cdot g(y)$) |
-| ✅ JA | $y' = \frac{x}{y}$ (weil $= \frac{1}{y} \cdot x = g(y) \cdot f(x)$) |
+| ✅ JA | $y' = x \cdot y$ (weil $x  \cdot y = f(x) \cdot g(y)$ ) |
+| ✅ JA | $y' = \frac{x}{y}$ (weil $\frac{1}{y} \cdot x = g(y) \cdot f(x)$ ) |
 | ❌ NEIN | $y' = x + y$ (weil es eine **Summe** ist, nicht Produkt) |
 | ❌ NEIN | $y'' + y' = 0$ (weil es 2. Ordnung ist) |
 
